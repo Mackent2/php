@@ -1,0 +1,257 @@
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+@font-face {
+  font-family: 'DroidSans-Bold';
+  src: url('../fonts/DroidSans-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/DroidSans-Bold.woff') format('woff'), url('../fonts/DroidSans-Bold.ttf')  format('truetype'), url('../fonts/DroidSans-Bold.svg#DroidSans-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quicksand-Regular';
+  src: url('../fonts/Quicksand-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Quicksand-Regular.woff') format('woff'), url('../fonts/Quicksand-Regular.ttf')  format('truetype'), url('../fonts/Quicksand-Regular.svg#Quicksand-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ARDECODE';
+  src: url('../fonts/ARDECODE.eot?#iefix') format('embedded-opentype'),  url('../fonts/ARDECODE.woff') format('woff'), url('../fonts/ARDECODE.ttf')  format('truetype'), url('../fonts/ARDECODE.svg#ARDECODE') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+	font-family: 'DroidSans-Bold';
+	font-size: 14px;
+	width: 100%;
+	margin: 0 auto;
+	background:#E6EDF4;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+h1{
+	color:#fff;
+}
+h2{
+	color:#333;
+}
+nav{
+	background: #3D5B99;
+	height: 80px;
+}
+nav div h1{
+	float: left;	
+	margin-left: 200px;
+}
+nav form{
+	float: right;
+	line-height: 80px;
+	margin-right:100px;
+	color: #fff;
+	position: relative;
+}
+nav form span{
+	color:#f00;
+}
+nav .hello{
+	float: right;
+	line-height: 140px;
+	padding-right: 20px;
+	font-size:15px;
+	color: #fff;
+}
+.login{
+	color: #f00;
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+	font-size: 12px;
+}
+aside{
+	width: 25%;
+	float: left;
+	position: relative;
+}
+aside ul {
+	list-style-type: none;
+	border-right: 1px solid #333;
+}
+aside ul li{
+	display: block;
+	border-bottom: 1px solid #333;
+}
+aside ul li:last-child{
+	border:none;
+}
+aside ul li a{
+	padding: 20px;
+	color:#333;
+	display: block;
+}
+aside ul li a:hover{
+	background: #fff;
+}
+aside img{
+	margin: 20px 0 0 200px;
+}
+section{
+	width: 55%;
+	float: right;
+}
+section p a{
+	float: right;
+	color: blue;
+	text-decoration:underline;
+	padding: 0 25px;
+}
+aside > p a{
+	color: blue;
+	float: left;
+	padding: 5px 20px;
+	opacity: 0.7;
+	position: absolute;
+	top:460px;
+	right: -50px;
+	text-align: center;
+}
+.success{
+	color: green;
+	text-align: center;
+}
+.error{
+	color: #f00;
+	text-align: center;
+}
+fieldset > p{
+	color: #f00;
+	text-align: center;
+	margin: 0;
+}
+section fieldset legend{
+	background: #8C8CCE;
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 25px;
+	color: #333;
+	margin-bottom: 20px;
+}
+legend{
+	padding:5px !important;
+}
+.register{
+	margin-left:50px;
+}
+.register input{
+	height: 30px;
+}
+.register div{
+	margin-bottom: 20px;
+}
+.form input {
+	height: 30px;
+	border-radius:5px;
+	padding:0 10px;
+
+}
+.form p input{
+	margin-left:65px;
+	font-weight: bold;
+}
+label span{
+	color:red;
+	font-weight: normal;
+	font-size: 11px;
+}
+.container{
+	text-align: center;
+}
+.container .table{
+	text-align: center;
+	margin-top:20px;
+	float: right;
+	width: 800px;
+	margin:10px 100px;
+	color: #f00;
+}
+.container .table tr th, th a{
+	color:blue;
+	padding: 5px;
+}
+.container .table tr td{
+	padding: 10px;
+	color: #333;
+}
+.container .table tr td a{
+	color:#f00;
+	text-decoration: underline;
+}
+.container .edit{
+	text-align: left;
+	padding:20px;
+	margin-left: 80px;
+}
+.container img{
+	float: left;
+	margin:20px ;
+}
+.change_img{
+	text-align: left;
+	padding: 20px;
+	line-height: 40px;
+}
+.edit div{
+	padding: 10px 0;
+}
+.edit div input, .edit div select{
+	margin-left: 50px;
+}
+.logout{
+	padding: 50px;
+	text-align: center;
+}
+.logout a{
+	color: #f00;
+}
+.access{
+	font-weight: bold;
+	color:green;
+	background: #999;
+}
+.success{
+	color:green;
+}
+.error{
+	color: red;
+}
+pre{
+	text-align: left !important;
+}
+.gio_hang{
+	width: 100% !important;
+}
+.gio_hang table{
+	margin:0 auto;
+	width: 80%;
+	text-align: center;
+}
+.gio_hang table th{
+	padding: 10px;
+	color: blue;
+	background: #999;
+}
+.gio_hang table td{
+	color:#333;
+	padding: 20px;
+}
+.gio_hang table a{
+	color:green;
+	text-decoration:underline;
+}
+form a{
+	color: blue !important;
+}
+
+
