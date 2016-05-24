@@ -1,0 +1,253 @@
+body{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	background-image: url(../images/home/background.jpg);
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #e0e0e0;
+
+}
+a:hover,a:visited{
+	color: #e0e0e0;
+}
+#body1{
+	width: 100%;
+	height: 510px;
+	border-bottom: 4px solid #000;
+}
+#body2{
+	width: 100%;
+	background: white;
+}
+#body3{
+	width: 100%;
+	height: 350px;
+	border-top: 4px solid #000;
+}
+#header{
+	width: 960px;
+	margin: 0 auto;
+	height:510px;
+	overflow: auto;
+} 
+#header #menu{
+	height: 80px;
+	clear: both;
+}
+.logo{
+	font-family: VNI-Butlong;
+	color: #e0e0e0;
+	float: left;
+	font-size: 36px;
+	padding: 0;
+	margin-top: 10px;
+}
+#header #menu .logo{
+	padding-left: 5px
+;	padding-right: 120px;
+}
+#header #menu ul{
+	margin-top: 20px;
+	list-style-type:none;
+}
+#header #menu ul li {
+	font-size: 12px;
+	font-family: Helvetica,arial,sans-serif;
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	padding:15px 20px 0 20px;
+	margin: 0;
+	color: #e0e0e0;
+	border-right:1px solid #2d2c2c;
+	height: 30px;
+	position: relative;
+}
+#header #menu ul li a{
+	color: #e0e0e0;
+}
+#header #menu ul li:hover {
+	background-color: #2f2f2f;
+	color: #e0e0e0;
+	border:1px inset #2f2f2f;
+	border-radius:5px;
+	width: auto;
+	/* cursor: pointer; --- Thay doi mouse khi re chuot vao -- pointer --> hinh ngon tay--*/
+}
+#header #bn-search{
+	float: right;
+	margin-top: 10px;
+}
+#header #bn-search img{
+	position: relative;
+	left:25px;
+	top: 3px;
+}
+#header #bn-search input{
+	width: 150px;
+	height: 25px;
+	border: 1px inset #2f2f2f;
+	border-radius: 15px;
+	background-color: #2f2f2f;
+}
+#banner{
+}
+#banner #bn-text{
+	color: white;
+	width: 370px;
+	height: 100%;
+	float: left;
+}
+#banner #bn-text h1{
+	line-height: 1.2em;
+	font-size: 24px;
+}
+#banner #bn-text input{
+	width: 140px;
+	height:40px;
+	background-color:#9a9a9b;
+	color:white;
+	border: 1px outset #9a9a9b;
+	border-radius:5px;
+	cursor: pointer;
+	margin: 20px 0 0 0;
+}
+#banner #img-bn{
+	float: right;
+}
+#content{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	/*top: -75px;*/
+	bottom: 55px;
+}
+#content #row-1{
+	padding: 0;
+	margin: 0;
+	clear: both;
+	overflow: auto;	
+}
+.col-1-4{
+	width: 23.4%;
+	float: left;
+	background-color: white;
+	padding: 0 20px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	margin: 0 10px;
+}
+/* Ap dung cho phan tu class dau tien -- first-child */
+	.col-1-4:first-child{
+	padding-right:20px;
+	margin: 0 10px 0 0;
+}
+/* Ap dung cho phan tu class cuoi cung -- last-child */
+	.col-1-4:last-child{
+	float: right;
+	padding-right:20px;
+	margin:0 0 0 10px;
+}
+	.col-1-4 h3 a{
+	font-size: 15px;
+	color: #000;
+	font-weight: bold;
+}
+	.col-1-4 p a{
+		color: #cfcfcf;
+	}
+	.col-1-4 .col-link{
+	border-image: url(../images/home/border-content.jpg) 5 / 5px 0px 0px 0px / 0 round;/* tao border bang hinh anh - day la top 5px*/
+	-moz-border-image: url(../images/home/border-content.jpg) 5 / 5px 0px 0px 0px / 0 round;/* tao border bang hinh anh - day la top 5px*/
+	-webkit-border-image: url(../images/home/border-content.jpg) 5 / 5px 0px 0px 0px / 0 round;/* tao border bang hinh anh - day la top 5px*/
+	padding-top: 20px;
+}
+	.col-1-4 .col-link a{
+		color: black;
+}
+#content #row-2{
+	clear: both;
+	overflow: auto;
+	border-image: url(../images/home/border-content.jpg) 5 / 5px 0px 0px 0px / 0 round;/* tao border bang hinh anh - day la top 5px*/
+	-moz-border-image: url(../images/home/border-content.jpg) 5 / 5px 0px 0px 0px / 0 round;/* tao border bang hinh anh - day la top 5px*/
+	-webkit-border-image: url(../images/home/border-content.jpg) 5 / 5px 0px 0px 0px / 0 round;/* tao border bang hinh anh - day la top 5px*/
+	padding: 10px 0;
+	margin: 30px 0 0 0;
+}
+	.col-2-2{
+	background-color: white;
+	width: 23.4%;
+	float: left;
+	margin: 0 20px 0 0 ;
+	padding: 0 20px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+	.img-content{
+		width: 74.4%;
+		float: right;
+		margin: 50px 0 0 0;	
+	}
+	.img-content img{
+		width: 220px;
+		padding: 0 0 15px 15px;
+	}
+	.img-content a:hover img{
+		background-color: black;
+	}
+#footer{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+		
+	.ft-1{
+		clear: both;
+		overflow: auto;
+}
+	.ft-1 h3{
+		border-bottom: 2px solid #686868;
+		padding: 0 0 10px 0;
+		font-weight: bold;
+	}
+	.ft-1 .col-2-4{
+		padding: 0;
+		width: 23.4%;
+		color: white;
+		background-image: url('../images/home/background.jpg');
+		border: none;
+	}
+	.ft-1 .col-2-4:last-child{
+		padding-right: 0;
+	}
+	.ft-1 img{
+		padding: 0 7px 7px 7px;
+	}
+	.ft-1 img:first-child{
+		padding-left: 0;
+	}
+	span{
+		color: #999999;
+	}
+	.ft-2{
+		padding: 40px 0 0 0;
+		width: 100%;
+		height: 80px;
+
+	}
+	.col-3-3{
+		color: #7d7d7d;
+		float: left;
+		margin: 0 40px;
+	}
+	.col-3-3:last-child{
+		float: right;
+	}

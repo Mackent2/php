@@ -1,0 +1,138 @@
+
+@font-face {
+  font-family: 'MyriadPro-Cond';
+  src: url('../fonts/MyriadPro-Cond.eot?#iefix') format('embedded-opentype'),  url('../fonts/MyriadPro-Cond.otf')  format('opentype'),
+	     url('../fonts/MyriadPro-Cond.woff') format('woff'), url('../fonts/MyriadPro-Cond.ttf')  format('truetype'), url('../fonts/MyriadPro-Cond.svg#MyriadPro-Cond') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+	background: #ededed;
+	font-family: 'MyriadPro-Cond',Helvetica,Arial,sans-serif;
+	font-size:14px;
+	line-height: 20px;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: #474747;
+	margin-top: 110px;
+	height: 140px
+}
+.container{
+	width: 960px;
+	margin: 70px auto;
+	padding: 0;
+}
+.box-header{
+	padding:30px 0;
+	color: #acacac;
+	font-size: 30px;
+	line-height: 40px;
+	text-align:left;
+}
+div{
+	text-align: center;
+}
+.overlay{
+	position: relative;
+	top:-10px;
+	left: 0;
+	background: #2f549b;
+	height: 160px;
+	margin-left: 40px;
+	display: block;
+}
+.overlay img{
+	float: left;
+	margin: 40px;
+}
+.overlay .number{
+	font-size: 85px;
+	line-height: 40px;
+	float: left;
+	color: #fff;
+	margin: 50px 0 0 0;
+}
+.overlay .text-overlay{
+	padding: 0 20px;
+	font-size:34px;
+	line-height: 32px;	
+	text-transform: capitalize;
+	color: #c6c6c6;
+	padding: 40px 20px;
+}
+.box-main{
+	margin: 0 10px;
+	padding:10px 40px;
+	background: #fff;
+	text-decoration: none;
+}
+.box-main:first-child{
+	margin: 0;
+}
+.box-main img{
+	padding:20px;
+	height: 110px;
+}
+.box-main p a{
+	text-decoration: none;
+}
+.box-main h1 a{
+	text-decoration: none;
+}
+.box-main span a{
+	color:#d5d5d5;
+}
+.box-main:hover{
+	background: #2f549b;
+	color: #7c9cdb;
+}
+.box-main:hover a{
+	color: #fff;
+}
+
+footer{
+	width: 960px;
+	background:#c6c6c6;
+	margin: 70px 0;
+	padding: 0;
+}
+.box-shadow{
+	font-size: 30px;
+	line-height: 20px;
+	color: #fff;
+	padding:8px 5px;
+	background: #2f549b;
+	position:relative;
+	top: -15px;
+}
+footer .box-shadow::before{
+	bottom: -15px;
+    content: url(../images/datacenter_content.jpg);
+    left: -33px;
+    position: relative;
+}
+footer .box-shadow::after{
+	bottom: -15px;
+    content: url(../images/img-right.jpg);
+    left: 33px;
+    position: relative;
+}
+.nav-footer{
+	margin:10px 0 0 0;
+	padding: 20px 20px 10px 20px;
+}
+.nav-footer a p{
+	color:#989898;
+	margin: 20px 0 0 0;
+}
+.nav-footer img{
+	height:50px;
+}
+.nav-footer:hover{
+	background: #2f549b;
+}
+.nav-footer:hover a p{
+	color:#fff;
+}

@@ -1,0 +1,142 @@
+@import "style.css";
+#content{
+	overflow:auto;
+	padding: 30px 0 60px 0;
+}
+#row-2{
+
+}
+.text-logo h3{
+	padding: 0 0 10px 0;
+	margin: 0;
+	border-image: url(../images/home/border-content.jpg) 5 / 0px 0px 5px 0px / 0 round;/* tao border bang hinh anh - day la top 5px*/
+	-moz-border-image: url(../images/home/border-content.jpg) 5 / 0px 0px 5px 0px / 0 round;/* tao border bang hinh anh - day la top 5px*/
+	-webkit-border-image: url(../images/home/border-content.jpg) 5 / 0px 0px 5px 0px / 0 round;/* tao border bang hinh anh - day la top 5px*/
+}
+.text-logo h3 a{
+	font-size: 15px;
+	color: #464646;
+}
+.mn-content ul{
+	margin: 0;
+	padding: 0;
+	list-style-type:none;
+}
+.mn-content ul li{
+	font-size: 12px;
+	display: inline-block;
+	border-right:1px solid #878787;
+	padding: 0 15px;
+	margin: 30px 0 0 0;
+	color:#464646;
+}
+.mn-content ul li:first-child{
+	padding-left: 0;
+	margin-left: 0;
+}
+.mn-content ul li:last-child{
+	border-right:none;
+}
+.mn-content  a{
+	color:#464646;
+}
+.mn-content ul li a:hover{
+	color:#e0e0e0;
+}
+.img-content{
+	padding: 40px 0 0 0;
+	margin: 0;
+}
+.hienanh{
+    float: left;
+    padding: 0;
+    position: relative;
+}
+	.hienanh > a {
+	    background-color: rgba(123, 123, 123, 0.7);
+	    border-radius: 10px;
+	    bottom: 70px;
+	    left: 70px;
+	    margin: 0;
+	    padding: 20px;
+	    position: absolute;
+	    right: 75px;
+	    top: 60px;
+	    display: none;
+	}
+	.hienanh > span {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    bottom: 5px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+	}
+	.hienanh ul{
+		list-style-type: none;
+		position: absolute;
+		bottom: 10px;
+		left:25px;
+		padding:0;
+		margin:0;
+		display: none;
+}
+	.hienanh ul li{
+		display: inline-block;
+		padding-right: 20px;
+		font-weight: bold;
+		color: white;
+	}
+	span{
+		color:white;
+		padding: 0;
+		margin: 0;
+	}
+	.hienanh:hover a,.hienanh:hover span,.hienanh:hover ul{
+		display: block;
+	}
+.box{
+		overflow: auto;
+	}
+.wraper{
+	float: left;
+	padding-right: 20px;
+} 
+.wraper h3 a{
+	color: #000;
+}
+.wraper .item{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.wraper .item li{
+	display:inline-block;
+}
+.wraper .item li:first-child{
+	font-size: 15px;
+	font-weight: bold;
+	padding-top: 15px;
+}
+.wraper .item li a{
+	color:#969697;
+	border-right:1px solid #000;
+	padding:0 5px;
+}
+.wraper .item li a:last-child{
+	border:none;
+}
+.wraper a:hover, .item li a:hover{
+	color:blue;
+}
+.border-line{
+	border-bottom: 5px solid #000;
+	margin: 50px 0;
+	clear: both;
+	border-image: url(../images/home/border-content.jpg) 5 / 0px 0px 5px 0px / 0 round;/* tao border bang hinh anh - day la top 5px*/
+	-moz-border-image: url(../images/home/border-content.jpg) 5 / 0px 0px 5px 0px / 0 round;/* tao border bang hinh anh - day la top 5px*/
+	-webkit-border-image: url(../images/home/border-content.jpg) 5 / 0px 0px 5px 0px / 0 round;/* tao border bang hinh anh - day la top 5px*/
+}

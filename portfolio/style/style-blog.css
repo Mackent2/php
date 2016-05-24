@@ -1,0 +1,68 @@
+@import "style.css";
+.col-left{
+	width: 70%;
+	float: left;
+	margin: 0;
+}
+#sidebar{
+	width: 30%;
+	float: right;
+	padding-left: 50px;
+	margin: 0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.text-logo h3{
+	padding-bottom: 10px;
+	border-image: url(../images/home/border-content.jpg) 5 / 0 0 5px 0 / 0 round;
+	-moz-border-image: url(../images/home/border-content.jpg) 5 / 0 0 5px 0 / 0 round;
+	-webkit-border-image: url(../images/home/border-content.jpg) 5 / 0 0 5px 0 / 0 round;
+}
+.text-logo h3 a{
+	color: #464646;
+}
+.row-2{
+	overflow:auto;
+	padding-bottom: 50px;
+}
+.row-2-1{
+	width: 30%;
+	float: left;
+}
+.row-2-1 span{
+	color: #000;
+	font-weight: bold;
+}
+.row-2-1 ul{	
+	padding:0 0 20px 0;
+	margin: 0;
+	list-style-type:none;
+}
+.row-2-1 ul li{
+	color: #dedede;
+	padding-top: 7px;
+}
+.row-2-2{
+	width: 70%;
+	float: right;
+}
+#sidebar h3{
+	font-size:14px;
+	padding-bottom: 10px;
+	border-image: url(../images/home/border-content.png) 5 / 0 0 5px 0 / 0 round;
+	-moz-border-image: url(../images/home/border-content.png) 5 / 0 0 5px 0 / 0 round;
+	-webkit-border-image: url(../images/home/border-content.png) 5 / 0 0 5px 0 / 0 round;
+}
+#sidebar .link-sb ul{
+	list-style-type: none;
+	padding:0;
+	margin: 0;
+}
+#sidebar li a{
+	color: #000;
+	font-weight: normal;
+}
+#sidebar li a:hover,a:hover{
+	color: blue;
+}

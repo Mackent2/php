@@ -1,0 +1,130 @@
+
+@font-face {
+  font-family: 'Bira-PERSONALUSEONLY';
+  src: url('../fonts/Bira-PERSONALUSEONLY.eot?#iefix') format('embedded-opentype'),  url('../fonts/Bira-PERSONALUSEONLY.woff') format('woff'), url('../fonts/Bira-PERSONALUSEONLY.ttf')  format('truetype'), url('../fonts/Bira-PERSONALUSEONLY.svg#Bira-PERSONALUSEONLY') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeue.eot?#iefix') format('embedded-opentype'),  url('../fonts/HelveticaNeue.woff') format('woff'), url('../fonts/HelveticaNeue.ttf')  format('truetype'), url('../fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+a{
+	color: #000;
+	text-decoration:none;
+}
+body{
+	font-family: helvetica,arial,sans-serif;
+	font-size:12px;
+}
+header{
+	background-image: url(../images/img-banner.jpg);
+	height: 550px;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.navheader{
+	padding: 102px 0 0 0;
+}
+.navheader p{
+	font-family: 'HelveticaNeue';
+	padding: 20px 0;
+	color:#fff;
+	font-size:24px;
+	line-height: auto;
+}
+button{
+	font-family: 'HelveticaNeue';
+	font-weight:bold;
+	background: #f12078;
+	color: #fff;
+	padding: 15px 25px;
+	border:none;
+	font-size:18px;
+}
+button:hover{
+	background: green;
+	color:red;
+}
+.navmain{
+	position: relative;
+}
+.button-left{
+	position:absolute;
+	top:45px;
+	left:-100px;
+}
+.button-right{
+	position:absolute;
+	top:45px;
+	right:-100px;
+}
+.box-content{
+	width: 220px;
+	padding: 20px;
+	background: #fff;
+	color:#000;
+	position:relative;
+	top:-45px;
+}
+.box-content img{
+	width: 182px;
+}
+.box-content a{
+	color:#000;
+	text-decoration:none;
+	opacity:0.4;
+}
+.text-content{
+	padding: 10px 0;
+	border-bottom:3px solid #f12078;
+	font-size:16px;
+}
+.text-main{
+	text-align:center;
+	font-size:24px;
+}
+.text-main a{
+	font-family: 'Bira-PERSONALUSEONLY';
+	color:#ee1f77;
+	font-size:30px;
+}
+.text-main button{
+	margin: 0 10px;
+}
+.main{
+	font-size:14px;
+	margin: 20px 5px;
+	border-bottom: 3px solid #000;
+	padding: 30px 0;
+}
+.main .text-main{	
+	line-height: 40px;
+	padding: 5px 0 3px 0;
+	text-align: left;
+}
+.main .text-main a{
+	font-family: 'HelveticaNeue';
+	color: #000;
+	font-size:24px;
+	text-decoration:none;
+}
+.main .text-main a:hover{
+	color:red;
+}
+.img-content{
+	margin: 0 0 0 50px;
+}
+.text-footer{
+	text-transform:capitalize;
+}
+.text-footer a{
+	color:#f7afc6;
+}
+.footer-right{
+	float: right;
+}

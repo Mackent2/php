@@ -1,0 +1,189 @@
+/* -- Design page all--*/
+body{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	background-image: url(../images/home/background.jpg);
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #e0e0e0;
+
+}
+#body1{
+	width: 100%;
+	border-bottom: 4px solid #000;
+}
+#body2{
+	width: 100%;
+	background: white;
+
+}
+#body3{
+	width: 100%;
+	border-top: 4px solid #000;
+	margin-bottom: 20px;
+}
+#body4{
+	width: 100%;
+	background-image: url(../images/home/ft-cuoi.jpg);
+}
+/*--begin header--*/
+#header{
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+} 
+#menu{
+	height: 50px;
+	padding: 0;
+	margin: 20px 0;
+
+}
+#menu a img{
+	float: left;
+	padding: 10px 160px 0 0;
+}
+#menu ul{
+	list-style-type:none;
+	overflow: auto;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+#menu ul li {
+	font-size: 12px;
+	font-family: Helvetica,arial,sans-serif;
+	display: inline-block;
+	float: left;
+	font-weight: bold;
+	padding:15px 10px 0;
+	margin: 0;
+	color: #e0e0e0;
+	border-right:1px solid #272f35;
+	height: 30px;
+	position: relative;
+}
+#menu ul li a{
+	padding: 10px;
+	transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+#menu ul li:hover a{
+	background-color: #2f2f2f;
+	color: #e0e0e0;
+	border:1px inset #2f2f2f;
+	border-radius:5px;
+	width: auto;
+
+	/* cursor: pointer; --- Thay doi mouse khi re chuot vao -- pointer --> hinh ngon tay--*/
+}
+#bn-search{
+	float: right;
+	margin-top: 10px;
+}
+#bn-search img{
+	position: relative;
+	left:25px;
+	top: 3px;
+}#bn-search:hover img{
+	display: none;
+}
+#bn-search input{
+	width: 150px;
+	height: 25px;
+	border: 1px inset #2f2f2f;
+	border-radius: 15px;
+	background-color: #2f2f2f;
+	color: #fff;
+}
+/*--end header--*/
+/*--begin conntent*/
+#content{
+	width: 960px;
+	margin: 0 auto;
+	overflow:auto;
+	padding: 0;
+}
+/*-- end content--*/
+/*--begin footer --*/
+.col-1-4{
+	width: 23.4%;
+	float: left;
+	background-color: white;
+	padding: 0 20px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	margin: 0 10px;
+}
+/* Ap dung cho phan tu class dau tien -- first-child */
+	.col-1-4:first-child{
+	padding-right:20px;
+	margin: 0 10px 0 0;
+}
+/* Ap dung cho phan tu class cuoi cung -- last-child */
+	.col-1-4:last-child{
+	float: right;
+	padding-right:20px;
+	margin:0 0 0 10px;
+}
+#footer{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: auto;
+}	
+#footer ul{
+	list-style-type: none;
+	float: left;
+	width: 25%;	
+	margin: 0;
+	padding: 0 20px 0 0;
+	color:#fff;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+#footer ul .li-header{
+	padding-bottom: 20px;
+	font-size: 16px;
+	font-weight:bold;
+	border-bottom:1px solid #6a6a6a;
+}
+#footer ul li{
+	padding-top: 20px;
+}
+#footer ul:last-child{
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+#footer ul:last-child li a img{
+	 padding: 0 11px 10px 0;
+}
+	.ft-1{
+		padding: 20px 0 0 0;
+		width: 960px;
+		height: 80px;
+		margin: 0 auto;
+	}
+	.ft-1 img{
+		float: left;
+		padding-top: 10px;
+	}
+	.col-3-3{
+		color: #7d7d7d;
+		float: left;
+		margin: 0 40px;
+	}
+	.col-3-3:last-child{
+		float: right;
+	}
+/*--end footer--*/
+/*-- End page all --*/

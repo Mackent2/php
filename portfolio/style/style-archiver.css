@@ -1,0 +1,82 @@
+@import "style.css";
+#content{
+	padding: 20px 0;
+}
+.col-left{
+	width: 70%;
+	float: left;
+	margin: 0;
+}
+#sidebar{
+	width: 30%;
+	float: right;
+	padding-left: 50px;
+	margin: 0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.text-logo h3{
+	padding-bottom: 10px;
+	border-image: url(../images/home/border-content.jpg) 5 / 0 0 5px 0 / 0 round;
+	-moz-border-image: url(../images/home/border-content.jpg) 5 / 0 0 5px 0 / 0 round;
+	-webkit-border-image: url(../images/home/border-content.jpg) 5 / 0 0 5px 0 / 0 round;
+}
+.text-logo h3 a{
+	color: #464646;
+}
+#text-1{
+	padding-top: 10px;
+	margin: 0;
+}
+
+#sidebar h3{
+	font-size:14px;
+	padding-bottom: 10px;
+	border-image: url(../images/home/border-content.png) 5 / 0 0 5px 0 / 0 round;
+	-moz-border-image: url(../images/home/border-content.png) 5 / 0 0 5px 0 / 0 round;
+	-webkit-border-image: url(../images/home/border-content.png) 5 / 0 0 5px 0 / 0 round;
+}
+#sidebar .link-sb ul{
+	list-style-type: none;
+	padding:0;
+	margin: 0;
+}
+#sidebar li a,.col-1-1 li a{
+	color: #000;
+	font-weight: normal;
+}
+.col-1-1 li a:hover,a:hover,#sidebar li a:hover{
+	color: blue;
+}
+.col-1-1{
+	width: 50%;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+.col-1-1 ul{
+	list-style-type: none;
+	margin:10px 0 0 0;
+	padding: 0;
+}
+.col-1-1 p{
+	font-weight: bold;
+	font-size: 14px;
+	margin: 20px 0 15px 0;
+}
+.col-1-1 li{
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 1.9em;
+}
+.col-1-1 li:before{
+	content: "- ";
+}
+.col-1-2{
+	float: right;
+	padding: 0 0 0 50px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
